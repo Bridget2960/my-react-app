@@ -1,6 +1,9 @@
-import React from 'react';
-import Work from "./Work";
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
+
+
+
+import "./App.js";
 
 function App() {
   return (
@@ -9,8 +12,13 @@ function App() {
         
         <h1>
          Weather App
-        </h1>
-        <Work/>
+        </h1> 
+        
+  
+    
+<Weather />
+
+      
         
       </header>
     </div>
